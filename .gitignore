@@ -1,0 +1,12 @@
+# ignore emacs backup files & emacs recovery files
+*~
+\#*\#
+
+# ignore TextMate project files
+*.tmproj
+
+# other useful files to ignore
+.DS_Store
+*.swp
+*.swo
+
