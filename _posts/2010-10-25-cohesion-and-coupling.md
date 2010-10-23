@@ -93,7 +93,7 @@ file = "dictionary.txt"
 
 write_dictionary(file, definitions)
 read_dictionary(file)
-{% endhightlight %}
+{% endhighlight %}
 
 The above example is straightforward. We store the definitions in a hash, and
 we use two methods `read_dictionary` and `write_dictionary` to manage reading
@@ -146,7 +146,7 @@ dictionary.add_definition("pedagogy", "the method and practice of teaching")
 
 dictionary.write
 dictionary.read
-{% endhightlight %}
+{% endhighlight %}
 
 The example above is more verbose, but it is also more orthogonal. Lets see why.
 

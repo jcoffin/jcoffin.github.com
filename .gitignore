@@ -1,3 +1,6 @@
+# Jekyll output
+_site
+
 # ignore emacs backup files & emacs recovery files
 *~
 \#*\#
