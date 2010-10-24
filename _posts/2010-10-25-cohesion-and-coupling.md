@@ -1,7 +1,11 @@
-Cohesion and Coupling: Principles of Orthogonal Object Orientated Programming
+---
+layout: default
+title: Cohesion and Coupling&colon; Principles of Orthogonal, Object Orientated Programming
+---
 
-Orthogonal Software
-===================
+# {{ page.title }} 
+
+## Orthogonal Software
 
 In mathematics, orthogonality describes the property two vectors have when they
 are perpendicular to each other. Each vector will advance indefinitely into
@@ -11,8 +15,7 @@ changes with predictable outcomes is easy.
 
 Orthogonal design is the union of two principles, cohesion and coupling.
 
-Cohesion
-========
+## Cohesion
 
 Cohesion describes the focus of an individual software component. When a
 component has only one responsibility, and therefore only one reason to change,
@@ -39,8 +42,7 @@ object.
 Orthogonal design requires highly cohesive components. Keep your components
 small and focused.
 
-Coupling
-========
+## Coupling
 
 Whereas cohesion is used to describe a single software component, coupling is
 used to describe the relationship between components. Coupling is the extent to
@@ -57,16 +59,14 @@ changed, and so on and so forth.
 Orthogonal software requires software components to be loosely coupled to one
 another.  
 
-Two Simple Examples
-===================
+## Two Simple Examples
 
 Below are two examples of a simple Dictionary written in Ruby. The dictionary
 supports reading and writing definitions to a file in either plain text or XML.
 We will compare them using the principles of cohesion and coupling to prove the
 second example is more orthogonal than the first. 
 
-Dictionary Example 1
---------------------
+### Dictionary Example 1
 {% highlight ruby %}
 def read_dictionary(file)
   if File.extname(file) == ".xml"
@@ -99,8 +99,7 @@ The above example is straightforward. We store the definitions in a hash, and
 we use two methods `read_dictionary` and `write_dictionary` to manage reading
 and writing to the file system in either plain text or XML.
 
-Dictionary Example 2
---------------------
+### Dictionary Example 2
 {% highlight ruby %}
 class Dictionary
   def initialize(file)
@@ -150,8 +149,7 @@ dictionary.read
 
 The example above is more verbose, but it is also more orthogonal. Lets see why.
 
-Analysis
-========
+## Analysis
 
 Lets begin by looking at these examples using the principle of cohesion. We
 learned above that common procedures spread among multiple contexts is

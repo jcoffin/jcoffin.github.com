@@ -1,5 +1,5 @@
-auto:     false
+auto:     true
 safe:     true
-server:   false
+server:   true
 pygments: true
 exclude: [ README.md, CNAME ]
