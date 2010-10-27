@@ -1,9 +1,12 @@
 ---
-layout: default
-title: Cohesion and Coupling&colon; Principles of Orthogonal, Object Orientated Programming
+layout: post
+title: "Cohesion and Coupling: Principles of Orthogonal, Object Orientated Programming"
 ---
 
 # {{ page.title }} 
+
+*This is a first of a small series on the fundamental principles of object
+orientated programming. Most examples will be in Ruby.*
 
 ## Orthogonal Software
 
