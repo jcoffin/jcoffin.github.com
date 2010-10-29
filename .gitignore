@@ -1,6 +1,9 @@
 # Jekyll output
 _site
 
+# project RVM files
+.rvmrc
+
 # ignore emacs backup files & emacs recovery files
 *~
 \#*\#
