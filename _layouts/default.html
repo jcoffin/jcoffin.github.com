@@ -7,14 +7,33 @@
     <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">	
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection, print">
+    <link rel="stylesheet" href="/css/blog.css" type="text/css" media="screen, projection, print">
     
     <title>{{ page.title }}</title>
   </head>
   <body>
     <div class="container">
-      {{ content }}
-      <hr/>
-      <p>Copyright &copy; 2010 Jason Coffin</p>
+      <div id="span-24 last">
+        <h1><strong>Jason Coffin</strong></h1>
+      </div>
+      <div class="span-16">
+        {{ content }}
+      </div>
+      <div class="span-8 last">
+        <p class="large"><strong>About</strong></p>
+        <p>Jason is a software engineer wandering New York and Boston.</p>
+        <div><img src="/images/jason-coffin.jpg" height="126" width="95" alt="Jason Coffin" /></div>
+        <ul>
+          <li><img src="/images/rss.png" height="18" width="18" alt="RSS" /> Subscribe with RSS</li>
+          <li><img src="/images/twitter.png" height="18" width="18" alt="Twitter" /> Follow me on Twitter</li>
+          <li><img src="/images/linkedin.png" height="18" width="18" alt="LinkedIn" /> Connect via LinkedIn</li>
+          <li><img src="/images/mail.png" height="18" width="18" alt="Mail" /> Write me</li>
+        </ul>
+        </div>
+      <div class="span=24 last">
+        <hr/>
+        <p>Copyright &copy; 2010 Jason Coffin</p>
+      </div>
     </div>
   </body>
 </html>
